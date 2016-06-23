@@ -20,6 +20,7 @@ gem 'hamlit'
 group :development, :test do
   gem 'byebug'
   gem 'rubocop', require: false
+  gem 'brakeman', require: false
 end
 
 group :development do
