@@ -62,6 +62,13 @@ GEM
     execjs (2.7.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
+    haml (4.0.7)
+      tilt
+    haml_lint (0.17.1)
+      haml (~> 4.0)
+      rake (>= 10, < 12)
+      rubocop (>= 0.36.0)
+      sysexits (~> 1.1)
     hamlit (2.3.1)
       temple (~> 0.7.6)
       thor
@@ -147,6 +154,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+    sysexits (1.2.0)
     temple (0.7.6)
     thor (0.19.1)
     thread_safe (0.3.5)
@@ -173,6 +181,7 @@ DEPENDENCIES
   brakeman
   byebug
   coffee-rails (~> 4.1.0)
+  haml_lint
   hamlit
   jbuilder (~> 2.0)
   jquery-rails

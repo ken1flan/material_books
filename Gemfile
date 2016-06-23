@@ -21,6 +21,7 @@ group :development, :test do
   gem 'byebug'
   gem 'rubocop', require: false
   gem 'brakeman', require: false
+  gem 'haml_lint', require: false
 end
 
 group :development do
