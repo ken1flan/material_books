@@ -22,6 +22,8 @@ group :development, :test do
   gem 'rubocop', require: false
   gem 'brakeman', require: false
   gem 'haml_lint', require: false
+  gem 'simplecov', require: false
+  gem 'tachikoma'
 end
 
 group :development do
