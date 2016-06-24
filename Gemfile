@@ -18,7 +18,9 @@ gem 'bootstrap-sass'
 gem 'hamlit'
 
 group :development, :test do
-  gem 'byebug'
+  gem 'pry-byebug'
+  gem 'pry-doc', require: false
+  gem 'pry-rails'
   gem 'rubocop', require: false
   gem 'brakeman', require: false
   gem 'haml_lint', require: false
