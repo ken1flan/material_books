@@ -16,6 +16,7 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem 'bootstrap-sass'
 gem 'hamlit'
+gem "haml-rails", "~> 0.9"
 
 group :development, :test do
   gem 'pry-byebug'
