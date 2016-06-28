@@ -18,6 +18,11 @@ gem 'bootstrap-sass'
 gem 'hamlit'
 gem "haml-rails", "~> 0.9"
 
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'omniauth-twitter'
+gem 'omniauth-google-oauth2'
+
 group :development, :test do
   gem 'rspec-rails', '~> 3.4'
   gem 'factory_girl_rails'
